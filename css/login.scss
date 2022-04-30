@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+    background: linear-gradient(225deg,#f59b00,#f5d400);
+}
+
+body{
+    background: #f6f6f6;
+}
+
+.mt-20px{
+    margin-top: 20px;
+}
+
+.l-t-l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dept-text{
+    text-align: center;
+    font-size: 1em;
+
+    span{
+        font-weight: 500;
+    }
+
+    .att{
+        font-size: .7em;
+        font-weight: 700;
+    }
+}
+
+.snsce-logo{
+    img{
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.active-sb{
+    background: green;
+}
